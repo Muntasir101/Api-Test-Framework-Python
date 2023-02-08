@@ -1,0 +1,9 @@
+Below is the cURL to make the request, our python code is going to provide the same headers, body and URL to hit the request
+
+curl --location --request POST 'http://0.0.0.0:5000//api/people' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--data-raw '{
+   "fname": "TAU",
+   "lname": "User"
+ }'
